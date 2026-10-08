@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.private/
+__pycache__/
+*.log

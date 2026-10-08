@@ -1,0 +1,12 @@
+{
+  "folders": [{ "path": "." }],
+  "settings": {
+    "files.exclude": { "**/__pycache__": true },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/.private": true
+    }
+  },
+  "extensions": { "recommendations": ["ms-python.python"] }
+}

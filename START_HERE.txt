@@ -1,0 +1,24 @@
+DIGITAL MEDICO - LOCAL DEMO
+
+1. Extract the entire ZIP (do not run files directly inside the ZIP).
+2. Install Python 3.12 or newer if it is not already installed.
+   https://www.python.org/downloads/
+   On Windows, select "Add Python to PATH" during installation.
+3. Double-click RUN_WINDOWS.cmd inside the extracted folder.
+4. Keep its terminal window open. The browser opens http://localhost:5173.
+   If it does not open automatically, type that address into your browser.
+
+No Node.js installation is needed to run this prebuilt package.
+Patient: alex@demo.medico
+Doctor: sarah@demo.medico
+Password for both demo accounts: MedicoDemo24!
+
+Use fictional data only. This is a hackathon prototype with simulated
+biometrics, scripted Doctoc guidance and a local database that is not
+encrypted at rest. No real patient information should be entered.
+
+On Mac/Linux: run python3 scripts/run_demo.py from the extracted folder.
+If port 5173 is occupied: python server/app.py --production --port 5174
+Then open http://localhost:5174.
+
+To develop/edit the source: see README.md (Node.js and Python required).
